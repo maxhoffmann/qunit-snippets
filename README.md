@@ -1,4 +1,4 @@
 qunit-snippets
 ===================
 
-Qunit Completions for Sublime Text
+Qunit completions for Sublime Text
