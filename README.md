@@ -1,7 +1,7 @@
 qunit-snippets
 ===================
 
-Qunit completions for Sublime Text
+QUnit completions for Sublime Text
 
 
 LICENSE
