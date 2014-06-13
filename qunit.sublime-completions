@@ -1,0 +1,43 @@
+{
+	"scope": "source.js",
+
+	"completions": [
+
+		// Assert
+		{ "trigger": "Qunit: deepEqual", "contents": "deepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: equal", "contents": "equal(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: notDeepEqual", "contents": "notDeepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: notEqual", "contents": "notEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: notPropEqual", "contents": "notPropEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: notStrictEqual", "contents": "notStrictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: ok", "contents": "ok(${1:state}, '${2:message}');" },
+		{ "trigger": "Qunit: propEqual", "contents": "propEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: strictEqual", "contents": "strictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "Qunit: throws", "contents": "throws(${1:block}, ${2:expected}, '${3:message}');" },
+
+		// Async Control
+		{ "trigger": "Qunit: start", "contents": "start();" },
+		{ "trigger": "Qunit: stop", "contents": "stop();" },
+
+		// Callbacks
+		{ "trigger": "Qunit: begin", "contents": "begin(${1:callback});" },
+		{ "trigger": "Qunit: done", "contents": "done(${1:callback});" },
+		{ "trigger": "Qunit: moduleDone", "contents": "moduleDone(${1:callback});" },
+		{ "trigger": "Qunit: moduleStart", "contents": "moduleStart(${1:callback});" },
+		{ "trigger": "Qunit: testDone", "contents": "testDone(${1:callback});" },
+		{ "trigger": "Qunit: testStart", "contents": "testStart(${1:callback});" },
+
+		// Configuration
+		{ "trigger": "Qunit: extend", "contents": "extend(${1:target}, ${2:mixin});" },
+		{ "trigger": "Qunit: push", "contents": "push(${1:result}, ${2:actual}, ${3:expected}, ${4:message});" },
+
+		// Test
+		{ "trigger": "Qunit: expect", "contents": "expect(${1:amount});" },
+		{ "trigger": "Qunit: asyncTest", "contents": "asyncTest('${1:name}', function() {\n\t$0\n});" },
+		{ "trigger": "Qunit: module", "contents": "module('${1:name}', ${2:lifecycle});" },
+		{ "trigger": "Qunit: test", "contents": "test('${1:name}', function() {\n\t$0\n});" },
+		{ "trigger": "Qunit: setup", "contents": "setup: function() {\n\t$0\n}" },
+		{ "trigger": "Qunit: teardown", "contents": "teardown: function() {\n\t$0\n}" }
+
+	]
+}
