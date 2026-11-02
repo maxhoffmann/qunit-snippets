@@ -4,40 +4,40 @@
 	"completions": [
 
 		// Assert
-		{ "trigger": "QUnit: deepEqual", "contents": "assert.deepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: equal", "contents": "assert.equal(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: notDeepEqual", "contents": "assert.notDeepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: notEqual", "contents": "assert.notEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: notPropEqual", "contents": "assert.notPropEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: notStrictEqual", "contents": "assert.notStrictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: ok", "contents": "assert.ok(${1:state}, '${2:message}');" },
-		{ "trigger": "QUnit: notOk", "contents": "assert.notOk(${1:state}, '${2:message}');" },
-		{ "trigger": "QUnit: propEqual", "contents": "assert.propEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: strictEqual", "contents": "assert.strictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: throws", "contents": "assert.throws(${1:block}, ${2:expected}, '${3:message}');" },
-		{ "trigger": "QUnit: expect", "contents": "assert.expect(${1:amount});" },
+		{ "trigger": "deepEqual\tQUnit", "contents": "assert.deepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "equal\tQUnit", "contents": "assert.equal(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "notDeepEqual\tQUnit", "contents": "assert.notDeepEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "notEqual\tQUnit", "contents": "assert.notEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "notPropEqual\tQUnit", "contents": "assert.notPropEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "notStrictEqual\tQUnit", "contents": "assert.notStrictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "ok\tQUnit", "contents": "assert.ok(${1:state}, '${2:message}');" },
+		{ "trigger": "notOk\tQUnit", "contents": "assert.notOk(${1:state}, '${2:message}');" },
+		{ "trigger": "propEqual\tQUnit", "contents": "assert.propEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "strictEqual\tQUnit", "contents": "assert.strictEqual(${1:actual}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "throws\tQUnit", "contents": "assert.throws(${1:block}, ${2:expected}, '${3:message}');" },
+		{ "trigger": "expect\tQUnit", "contents": "assert.expect(${1:amount});" },
 
 		// Async Control
-		{ "trigger": "QUnit: async", "contents": "assert.async();" },
+		{ "trigger": "async\tQUnit", "contents": "assert.async();" },
 
 		// Callbacks
-		{ "trigger": "QUnit: begin", "contents": "QUnit.begin(${1:callback});" },
-		{ "trigger": "QUnit: done", "contents": "QUnit.done(${1:callback});" },
-		{ "trigger": "QUnit: moduleDone", "contents": "QUnit.moduleDone(${1:callback});" },
-		{ "trigger": "QUnit: moduleStart", "contents": "QUnit.moduleStart(${1:callback});" },
-		{ "trigger": "QUnit: testDone", "contents": "QUnit.testDone(${1:callback});" },
-		{ "trigger": "QUnit: testStart", "contents": "QUnit.testStart(${1:callback});" },
+		{ "trigger": "begin\tQUnit", "contents": "QUnit.begin(${1:callback});" },
+		{ "trigger": "done\tQUnit", "contents": "QUnit.done(${1:callback});" },
+		{ "trigger": "moduleDone\tQUnit", "contents": "QUnit.moduleDone(${1:callback});" },
+		{ "trigger": "moduleStart\tQUnit", "contents": "QUnit.moduleStart(${1:callback});" },
+		{ "trigger": "testDone\tQUnit", "contents": "QUnit.testDone(${1:callback});" },
+		{ "trigger": "testStart\tQUnit", "contents": "QUnit.testStart(${1:callback});" },
 
 		// Configuration
-		{ "trigger": "QUnit: extend", "contents": "QUnit.extend(${1:target}, ${2:mixin});" },
-		{ "trigger": "QUnit: config", "contents": "QUnit.config.${1:name} = ${2:value};" },
+		{ "trigger": "extend\tQUnit", "contents": "QUnit.extend(${1:target}, ${2:mixin});" },
+		{ "trigger": "config\tQUnit", "contents": "QUnit.config.${1:name} = ${2:value};" },
 
 		// Test
-		{ "trigger": "QUnit: module", "contents": "QUnit.module('${1:name}', ${2:lifecycle});" },
-		{ "trigger": "QUnit: test", "contents": "QUnit.test('${1:name}', function(assert) {\n\t$0\n});" },
-		{ "trigger": "QUnit: skip", "contents": "QUnit.skip('${1:name}', function(assert) {\n\t$0\n});" },
-		{ "trigger": "QUnit: beginEach", "contents": "beginEach: function() {\n\t$0\n}" },
-		{ "trigger": "QUnit: afterEach", "contents": "afterEach: function() {\n\t$0\n}" }
+		{ "trigger": "module\tQUnit", "contents": "QUnit.module('${1:name}', ${2:lifecycle});" },
+		{ "trigger": "test\tQUnit", "contents": "QUnit.test('${1:name}', function(assert) {\n\t$0\n});" },
+		{ "trigger": "skip\tQUnit", "contents": "QUnit.skip('${1:name}', function(assert) {\n\t$0\n});" },
+		{ "trigger": "beginEach\tQUnit", "contents": "beginEach: function() {\n\t$0\n}" },
+		{ "trigger": "afterEach\tQUnit", "contents": "afterEach: function() {\n\t$0\n}" }
 
 	]
 }
